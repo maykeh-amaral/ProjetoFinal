@@ -14,7 +14,7 @@ namespace ProjetoFinal.Dados
         }
 
         public DbSet<Usuarios> Usuarios { get; set; }
-        public DbSet<Enrollments> Errollements { get; set; }
+        public DbSet<Errollments> Errollments { get; set; }
         public DbSet<Clientes> Clientes { get; set; }
         public DbSet<Enderecos> Enderecos { get; set; }
         public DbSet<Fornecedores> Fornecedores { get; set; }
@@ -25,7 +25,7 @@ namespace ProjetoFinal.Dados
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuarios>().ToTable("Usuarios");
-            modelBuilder.Entity<Enrollments>().ToTable("Enrollments");
+            modelBuilder.Entity<Errollments>().ToTable("Enrollments");
             modelBuilder.Entity<Clientes>().ToTable("Clientes");
             modelBuilder.Entity<Enderecos>().ToTable("Enderecos");
             modelBuilder.Entity<Fornecedores>().ToTable("Fornecedores");

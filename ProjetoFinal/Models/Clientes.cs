@@ -21,6 +21,6 @@ namespace ProjetoFinal.Models
         public Enderecos Endereco { get; set; }
         
 
-        public ICollection<Enrollments> Enrollments { get; set; }
+        public ICollection<Errollments> Enrollments { get; set; }
     }
 }   

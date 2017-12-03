@@ -8,7 +8,7 @@ namespace ProjetoFinal.Models
     public class Fornecedores
     {
         public string RazaoSocial { get; set; }
-        public string CNPJ { get; set; }
+        public int CNPJ { get; set; }
         public int InscricaoEstadual { get; set; }
         public string NomeFantasia { get; set; }
         public string Email { get; set; }
@@ -16,6 +16,6 @@ namespace ProjetoFinal.Models
 
         public Enderecos Endereco { get; set; }
 
-        public ICollection<Errollement> Errollements { get; set; }
+        public ICollection<Errollments> Errollements { get; set; }
 }
 }

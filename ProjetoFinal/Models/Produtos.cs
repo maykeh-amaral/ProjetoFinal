@@ -19,6 +19,6 @@ namespace ProjetoFinal.Models
 
         public Fornecedores Fornecedor { get; set; }
 
-        public ICollection<Errollement> Errollements { get; set; }
+        public ICollection<Errollments> Errollments { get; set; }
     }
 }

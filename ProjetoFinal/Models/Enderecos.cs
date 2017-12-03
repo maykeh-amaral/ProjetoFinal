@@ -15,6 +15,6 @@ namespace ProjetoFinal.Models
         public string Pais { get; set; }
         public string CEP { get; set; }
 
-        public ICollection<Errollement> Errollements { get; set; }
+        public ICollection<Errollments> Errollements { get; set; }
     }
 }
