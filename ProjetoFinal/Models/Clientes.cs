@@ -16,11 +16,8 @@ namespace ProjetoFinal.Models
         public string Email { get; set; }
         public int Telefone { get; set; }
         public int Celular { get; set; }
-        public DateTime ErrollementDate { get; set; }
+        public string Endereco { get; set; }
 
-        public Enderecos Endereco { get; set; }
-        
-
-        public ICollection<Errollments> Enrollments { get; set; }
+        public ICollection<Enrollments> Enrollments { get; set; }
     }
 }   

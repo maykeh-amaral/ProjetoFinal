@@ -13,12 +13,8 @@ namespace ProjetoFinal.Models
         public float PrecoVenda { get; set; }
         public int Quantidade { get; set; }
         public string Tipo { get; set; }
-        public DateTime ErrollementDate { get; set; }
-        
 
+        public ICollection<Enrollments> Enrollments { get; set; }
 
-        public Fornecedores Fornecedor { get; set; }
-
-        public ICollection<Errollments> Errollments { get; set; }
     }
 }
